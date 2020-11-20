@@ -23,17 +23,3 @@ def _post_names():
     data = request.get_json()
     add_names(data)
     return json.dumps({'success': True}), 200, {'ContentType': 'application/json'}
-
-"""
-[
-    {
-        "name": "Göran"
-    },
-    {
-        "name": "Helené"
-    },
-    {
-        "name": "Irene"
-    }
-]
-"""

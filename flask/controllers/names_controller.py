@@ -1,5 +1,5 @@
-import persitstence.repository.names_repo as nr
-from persitstence.models.thing import Thing
+import persistence.repository.names_repo as nr
+from persistence.models.thing import Thing
 
 def get_all_names():
     return [name.to_dict() for name in nr.get_all_names()]

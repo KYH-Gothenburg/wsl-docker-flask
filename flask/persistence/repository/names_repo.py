@@ -1,4 +1,4 @@
-from persitstence.db import session
+from persistence.db import session
 from ..models.thing import Thing
 
 def get_all_names():

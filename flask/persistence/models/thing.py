@@ -1,4 +1,4 @@
-from persitstence.db import Base
+from persistence.db import Base
 import sqlalchemy as sa
 
 class Thing(Base):
