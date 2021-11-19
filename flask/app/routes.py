@@ -9,7 +9,7 @@ import json
 def index():
     app_name = os.environ["APP_NAME"]
 
-    return f"Hi from {app_name}!!! Hej hej!!!"
+    return f"Hi from {app_name}"
 
 
 @app.route("/names", methods=['GET'])
